@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "8496909d-7870-4eb4-8ecc-c8a5b3a8558e",
+		"name": "LSC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/signup/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"foo@gmail.com\",\r\n  \"first_name\": \"Test\",\r\n  \"last_name\": \"Ok\",\r\n  \"password\": \"tester1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://develop.api.lakeshorecoating.com/api/signup/",
+				"description": "SignUp LSC"
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/login/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"foo@gmail.com\",\r\n  \"password\": \"tester1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://develop.api.lakeshorecoating.com/api/login/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg2NDQ5OTQ3LCJqdGkiOiIyZjcyZjY5MDcwNTM0MWUxYWJlMjQ0NmY5ODIxNGNjNyIsInVzZXJfaWQiOjV9.uX8EDdlQAYzd1qj4kCbaIf56_mjqALKi6gCT5R2K3-g"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://develop.api.lakeshorecoating.com/api/logout/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg2NDQ5OTQ3LCJqdGkiOiIyZjcyZjY5MDcwNTM0MWUxYWJlMjQ0NmY5ODIxNGNjNyIsInVzZXJfaWQiOjV9.uX8EDdlQAYzd1qj4kCbaIf56_mjqALKi6gCT5R2K3-g"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://develop.api.lakeshorecoating.com/api/lsc-projects/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?q=example",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg2Njk2MTQ5LCJqdGkiOiI0YTQxNWRkNTUzMjU0NTY0YWUxNTExOTAzYTJlMzYyZiIsInVzZXJfaWQiOjV9.B7AJMbMQDPk_4b858pufLU2JQyOUhll58BG4NGHZJsM"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?page_size=10&complete=false",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"api",
+						"lakeshorecoating",
+						"com"
+					],
+					"path": [
+						"api",
+						"lsc-projects",
+						""
+					],
+					"query": [
+						{
+							"key": "page_size",
+							"value": "10"
+						},
+						{
+							"key": "complete",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?complete=true",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg2NDQ5OTQ3LCJqdGkiOiIyZjcyZjY5MDcwNTM0MWUxYWJlMjQ0NmY5ODIxNGNjNyIsInVzZXJfaWQiOjV9.uX8EDdlQAYzd1qj4kCbaIf56_mjqALKi6gCT5R2K3-g"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?complete=true",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"api",
+						"lakeshorecoating",
+						"com"
+					],
+					"path": [
+						"api",
+						"lsc-projects",
+						""
+					],
+					"query": [
+						{
+							"key": "complete",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.api.lakeshorecoating.com/api/lsc-orders/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg5NDcwNTQ0LCJqdGkiOiI3MmJmYzA0MjdmYTc0ZTA3ODNjNWJkNzAxNDlkMGFjYSIsInVzZXJfaWQiOjV9.MlnRVTZgn1kVNBfdcDEGmcIZB06yg-HJjQk8ARuML8M"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://develop.api.lakeshorecoating.com/api/lsc-orders/"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
