@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/signup/",
+			"name": "https://develop.api.graybucket.com/api/signup/",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -19,13 +19,13 @@
 						}
 					}
 				},
-				"url": "https://develop.api.lakeshorecoating.com/api/signup/",
+				"url": "https://develop.api.graybucket.com/api/signup/",
 				"description": "SignUp LSC"
 			},
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/login/",
+			"name": "https://develop.api.graybucket.com/api/login/",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -38,12 +38,12 @@
 						}
 					}
 				},
-				"url": "https://develop.api.lakeshorecoating.com/api/login/"
+				"url": "https://develop.api.graybucket.com/api/login/"
 			},
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/logout/",
+			"name": "https://develop.api.graybucket.com/api/logout/",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -62,12 +62,12 @@
 						}
 					}
 				},
-				"url": "https://develop.api.lakeshorecoating.com/api/logout/"
+				"url": "https://develop.api.graybucket.com/api/logout/"
 			},
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/",
+			"name": "https://develop.api.graybucket.com/api/lsc-projects/",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -77,12 +77,12 @@
 				},
 				"method": "GET",
 				"header": [],
-				"url": "https://develop.api.lakeshorecoating.com/api/lsc-projects/"
+				"url": "https://develop.api.graybucket.com/api/lsc-projects/"
 			},
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?q=example",
+			"name": "https://develop.api.graybucket.com/api/lsc-projects/?q=example",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -93,12 +93,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?page_size=10&complete=false",
+					"raw": "https://develop.api.graybucket.com/api/lsc-projects/?page_size=10&complete=false",
 					"protocol": "https",
 					"host": [
 						"develop",
 						"api",
-						"lakeshorecoating",
+						"graybucket",
 						"com"
 					],
 					"path": [
@@ -121,7 +121,7 @@
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?complete=true",
+			"name": "https://develop.api.graybucket.com/api/lsc-projects/?complete=true",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -132,12 +132,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://develop.api.lakeshorecoating.com/api/lsc-projects/?complete=true",
+					"raw": "https://develop.api.graybucket.com/api/lsc-projects/?complete=true",
 					"protocol": "https",
 					"host": [
 						"develop",
 						"api",
-						"lakeshorecoating",
+						"graybucket",
 						"com"
 					],
 					"path": [
@@ -156,7 +156,7 @@
 			"response": []
 		},
 		{
-			"name": "https://develop.api.lakeshorecoating.com/api/lsc-orders/",
+			"name": "https://develop.api.graybucket.com/api/lsc-orders/",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -178,7 +178,7 @@
 						}
 					}
 				},
-				"url": "https://develop.api.lakeshorecoating.com/api/lsc-orders/"
+				"url": "https://develop.api.graybucket.com/api/lsc-orders/"
 			},
 			"response": []
 		}
