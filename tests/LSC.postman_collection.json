@@ -31,7 +31,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"foo@gmail.com\",\r\n  \"password\": \"tester1234\"\r\n}",
+					"raw": "{\r\n  \"email\": \"chainzown1@gmail.com\",\r\n  \"password\": \"tester1234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
