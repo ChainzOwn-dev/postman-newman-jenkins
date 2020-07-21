@@ -130,16 +130,7 @@
 		{
 			"name": "https://develop.api.graybucket.com/api/lsc-projects/",
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTg2NDQ5OTQ3LCJqdGkiOiIyZjcyZjY5MDcwNTM0MWUxYWJlMjQ0NmY5ODIxNGNjNyIsInVzZXJfaWQiOjV9.uX8EDdlQAYzd1qj4kCbaIf56_mjqALKi6gCT5R2K3-g",
-							"type": "string"
-						}
-					]
-				},
+				
 				"method": "GET",
 				"header": [
 					{
