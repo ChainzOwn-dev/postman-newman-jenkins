@@ -302,6 +302,41 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://develop.api.graybucket.com/api/profile/delete/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://develop.api.graybucket.com/api/profile/delete/",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"api",
+						"graybucket",
+						"com"
+					],
+					"path": [
+						"api",
+						"profile",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
